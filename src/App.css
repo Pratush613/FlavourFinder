@@ -1,0 +1,147 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  background-color: #e0e7ff; /* Soft pastel blue */
+  color: #333;
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Take up remaining space */
+  text-align: center;
+  height: 100vh;
+}
+
+.App-header {
+  /*background-color: #1e293b; /* Dark slate blue */
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.title {
+  font-size: 2em;               /* Large font size */
+  font-weight: bold;            /* Bold text */
+  color: #3b82f6;               /* Light blue color */
+  margin-top: 10px;
+  margin-bottom: 20px;          /* Space below the logo */
+  letter-spacing: 2px;          /* Spacing between letters */
+}
+
+.title:hover {
+  color: #2563eb;               /* Slightly darker blue on hover */
+  transition: color 0.3s ease;  /* Smooth transition for color change */
+}
+
+input {
+  padding: 15px;
+  width: 300px;
+  margin-right: 10px;
+  border: 2px solid #1e293b;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1em;
+  background-color: #f1f5f9; /* Light grayish blue */
+}
+
+input::placeholder {
+  color: #64748b; /* Grayish blue */
+}
+
+button {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #3b82f6; /* Light blue */
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb; /* Slightly darker blue */
+}
+
+.Wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.ingredients {
+  background: #ffffff; /* White */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  margin: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ingredients:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.ingredients span {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 20px 10px;
+  color: #1e293b; /* Dark slate blue */
+  background-color: #cbd5e1; /* Light slate blue */
+}
+
+.ingredients img {
+  width: 100%;
+  height: auto;
+}
+
+.ingredients p {
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+  border-top: 1px solid #eee;
+  color: #333;
+  background-color: #f9fafb; /* Light gray */
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.footer {
+  background-color: #f8f9fa; /* Light grey background */
+  text-align: center;       /* Center the text */
+  padding: 20px;            /* Some padding */
+  font-size: 14px;          /* Font size */
+  color: #1e293b;           /* Dark grey text color */
+  border-top: 1px solid #e9ecef; /* Light grey border at the top */
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  flex-shrink: 0;           /* Prevent shrinking */
+              
+}
+
+.footer a {
+  color: #1e293b;           /* Link color */
+  text-decoration: none;    /* Remove underline from links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
