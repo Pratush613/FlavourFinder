@@ -57,6 +57,7 @@ input {
 
 input::placeholder {
   color: #64748b; /* Grayish blue */
+  
 }
 
 button {
@@ -68,6 +69,7 @@ button {
   font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-top: 10px;
 }
 
 button:hover {
