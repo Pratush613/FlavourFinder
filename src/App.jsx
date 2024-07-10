@@ -2,10 +2,14 @@ import { useState ,useEffect ,useRef } from 'react'
 import './App.css'
 
 
+
 function App() {
 
   const API_id = "ec0d9392"
   const API_key = "6310541f21a76e0dccb4fb8e9d267355"
+
+  // process.env.REACT_APP_API_ID
+  // process.env.REACT_APP_API_KEY
 
   const[ingredientList,updateIngredientList] = useState([]);
   const inputRef = useRef(null);

@@ -46,7 +46,7 @@ body {
 
 input {
   padding: 15px;
-  width: 300px;
+  width: 250px;
   margin-right: 10px;
   border: 2px solid #1e293b;
   border-radius: 10px;
@@ -57,7 +57,6 @@ input {
 
 input::placeholder {
   color: #64748b; /* Grayish blue */
-  
 }
 
 button {
@@ -69,7 +68,7 @@ button {
   font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 button:hover {
